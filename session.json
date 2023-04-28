@@ -1,0 +1,157 @@
+{
+	"capabilities": {
+		"https://www.fastmail.com/dev/backup": {},
+		"https://www.fastmail.com/dev/blob": {},
+		"https://www.fastmail.com/dev/calendars": {},
+		"https://www.fastmail.com/dev/compress": {
+			"deflate": true
+		},
+		"https://www.fastmail.com/dev/contacts": {},
+		"https://www.fastmail.com/dev/customer": {},
+		"https://www.fastmail.com/dev/files": {},
+		"https://www.fastmail.com/dev/mail": {},
+		"https://www.fastmail.com/dev/notes": {},
+		"https://www.fastmail.com/dev/performance": {},
+		"https://www.fastmail.com/dev/rules": {},
+		"https://www.fastmail.com/dev/user": {},
+		"urn:ietf:params:jmap:calendars": {},
+		"urn:ietf:params:jmap:contacts": {},
+		"urn:ietf:params:jmap:core": {
+			"collationAlgorithms": [
+				"i;ascii-numeric",
+				"i;ascii-casemap",
+				"i;octet"
+			],
+			"maxCallsInRequest": 50,
+			"maxConcurrentRequests": 10,
+			"maxConcurrentUpload": 10,
+			"maxObjectsInGet": 4096,
+			"maxObjectsInSet": 4096,
+			"maxSizeRequest": 10000000,
+			"maxSizeUpload": 250000000
+		},
+		"urn:ietf:params:jmap:mail": {},
+		"urn:ietf:params:jmap:principals": {},
+		"urn:ietf:params:jmap:submission": {},
+		"urn:ietf:params:jmap:vacationresponse": {}
+	},
+	"accounts": {
+		"cf569412a": {
+			"name": "",
+			"isPersonal": false,
+			"isReadOnly": false,
+			"accountCapabilities": {
+				"https://www.fastmail.com/dev/customer": {},
+				"urn:ietf:params:jmap:principals": {
+					"currentUserPrincipalId": "user-17366680"
+				}
+			}
+		},
+		"ffeb941aa": {
+			"name": "",
+			"isPersonal": false,
+			"isReadOnly": false,
+			"accountCapabilities": {
+				"https://www.fastmail.com/dev/files": {},
+				"urn:ietf:params:jmap:principals:owner": {
+					"accountIdForPrincipal": "cf569412a",
+					"principalId": "user-17366680"
+				}
+			}
+		},
+		"ucb4140a6": {
+			"name": "robert@kochie.io",
+			"isPersonal": true,
+			"isReadOnly": false,
+			"accountCapabilities": {
+				"https://www.fastmail.com/dev/backup": {},
+				"https://www.fastmail.com/dev/blob": {},
+				"https://www.fastmail.com/dev/calendars": {},
+				"https://www.fastmail.com/dev/contacts": {},
+				"https://www.fastmail.com/dev/mail": {},
+				"https://www.fastmail.com/dev/notes": {},
+				"https://www.fastmail.com/dev/performance": {},
+				"https://www.fastmail.com/dev/rules": {
+					"rulesVersion": 3
+				},
+				"https://www.fastmail.com/dev/user": {},
+				"urn:ietf:params:jmap:calendars": {},
+				"urn:ietf:params:jmap:contacts": {},
+				"urn:ietf:params:jmap:mail": {
+					"emailQuerySortOptions": [
+						"receivedAt",
+						"from",
+						"to",
+						"subject",
+						"size",
+						"header.x-spam-score"
+					],
+					"maxMailboxDepth": null,
+					"maxMailboxesPerEmail": 1000,
+					"maxSizeAttachmentsPerEmail": 50000000,
+					"maxSizeMailboxName": 490,
+					"mayCreateTopLevelMailbox": true
+				},
+				"urn:ietf:params:jmap:principals:owner": {
+					"accountIdForPrincipal": "cf569412a",
+					"principalId": "user-17366680"
+				},
+				"urn:ietf:params:jmap:submission": {
+					"maxDelayedSend": 44236800,
+					"submissionExtensions": []
+				},
+				"urn:ietf:params:jmap:vacationresponse": {}
+			}
+		},
+		"ucb4940a6": {
+			"name": "masteruser_autoub8wm77@fastmail.com",
+			"isPersonal": false,
+			"isReadOnly": false,
+			"accountCapabilities": {
+				"https://www.fastmail.com/dev/blob": {},
+				"https://www.fastmail.com/dev/contacts": {},
+				"https://www.fastmail.com/dev/performance": {},
+				"urn:ietf:params:jmap:contacts": {}
+			}
+		},
+		"vcb4140a6": {
+			"name": "robert@kochie.io",
+			"isPersonal": true,
+			"isReadOnly": false,
+			"accountCapabilities": {
+				"https://www.fastmail.com/dev/files": {},
+				"urn:ietf:params:jmap:principals:owner": {
+					"accountIdForPrincipal": "cf569412a",
+					"principalId": "user-17366680"
+				}
+			}
+		}
+	},
+	"primaryAccounts": {
+		"https://www.fastmail.com/dev/backup": "ucb4140a6",
+		"https://www.fastmail.com/dev/blob": "ucb4140a6",
+		"https://www.fastmail.com/dev/calendars": "ucb4140a6",
+		"https://www.fastmail.com/dev/contacts": "ucb4140a6",
+		"https://www.fastmail.com/dev/customer": "cf569412a",
+		"https://www.fastmail.com/dev/files": "vcb4140a6",
+		"https://www.fastmail.com/dev/mail": "ucb4140a6",
+		"https://www.fastmail.com/dev/notes": "ucb4140a6",
+		"https://www.fastmail.com/dev/performance": "ucb4140a6",
+		"https://www.fastmail.com/dev/rules": "ucb4140a6",
+		"https://www.fastmail.com/dev/user": "ucb4140a6",
+		"urn:ietf:params:jmap:calendars": "ucb4140a6",
+		"urn:ietf:params:jmap:contacts": "ucb4140a6",
+		"urn:ietf:params:jmap:mail": "ucb4140a6",
+		"urn:ietf:params:jmap:principals": "cf569412a",
+		"urn:ietf:params:jmap:submission": "ucb4140a6",
+		"urn:ietf:params:jmap:vacationresponse": "ucb4140a6"
+	},
+	"username": "robert@kochie.io",
+	"apiUrl": "https://api.fastmail.com/jmap/api/",
+	"downloadUrl": "https://www.fastmailusercontent.com/jmap/download/{accountId}/{blobId}/{name}?type={type}",
+	"uploadUrl": "https://api.fastmail.com/jmap/upload/{accountId}/",
+	"eventSourceUrl": "https://api.fastmail.com/jmap/event/",
+	"state": "cyrus-852696;fsdb-314208;p-210669283b;vfs-0",
+	"signingId": "095687e6905a52e923ed3cfc38928f88",
+	"signingKey": "YzhhOWJiMTc3MDMwNmYyMDg1YmIxYWY3YzBiNzA3NDI"
+}
